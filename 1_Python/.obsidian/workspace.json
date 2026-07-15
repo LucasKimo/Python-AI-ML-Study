@@ -1,0 +1,250 @@
+{
+  "main": {
+    "id": "0aaec6578dfcaa7b",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f4c247413680398",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "78ba5c49871ad320",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "9. 사용자 정의 함수.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "9. 사용자 정의 함수"
+            }
+          },
+          {
+            "id": "30e9823c10eb44b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10. 객체지향 프로그래밍 (OOP).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "10. 객체지향 프로그래밍 (OOP)"
+            }
+          },
+          {
+            "id": "3ab58c5cfb4033e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11. 객체지향 프로그래밍 4대 패러다임.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "11. 객체지향 프로그래밍 4대 패러다임"
+            }
+          },
+          {
+            "id": "d85e4e2895d08394",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Types of Machine Learning.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Types of Machine Learning"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "61c8dbb5a6dca8b8",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a4b19095437aebb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ae53d311a4e07656",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "16fbb31c3ea63da8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "06da6463bdac097a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "c286b0758e9648a1",
+    "type": "split",
+    "children": [
+      {
+        "id": "8d01605ea30ff472",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4372a3f032a8504f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "5. 컬랙션 타입(리스트, 튜플).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 5. 컬랙션 타입(리스트, 튜플)"
+            }
+          },
+          {
+            "id": "95bc537fad6ce0a2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "5. 컬랙션 타입(리스트, 튜플).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 5. 컬랙션 타입(리스트, 튜플)"
+            }
+          },
+          {
+            "id": "5b124b3c7fd269cd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6b1bdbc997049f72",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "cfd284ad14a9d784",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "5. 컬랙션 타입(리스트, 튜플).md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 5. 컬랙션 타입(리스트, 튜플)"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "3ab58c5cfb4033e6",
+  "lastOpenFiles": [
+    "10. 객체지향 프로그래밍 (OOP).md",
+    "11. 객체지향 프로그래밍 4대 패러다임.md",
+    "images/클래스붕어빵.png",
+    "8. 제어문 - 반복문.md",
+    "9. 사용자 정의 함수.md",
+    "5. 컬랙션 타입(리스트, 튜플).md",
+    "6. 컬랙션 타입 (세트, 딕셔너리).md",
+    "2. 문자열 다루기.md",
+    "1. 변수 및 자료형.md",
+    "4. 연산자.md",
+    "7. 제어문 - 조건문.md",
+    "3. 파이썬의 입력과 출력.md",
+    "Types of Machine Learning.md",
+    "2026-06-03.md",
+    "Untitled.canvas",
+    "Pasted image 20260530154456.png",
+    "images/컬랙션 타입.png",
+    "images/변수.png"
+  ]
+}
