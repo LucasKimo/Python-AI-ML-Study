@@ -1,0 +1,11 @@
+#title {
+  font-size: 30px;
+  color: blue;
+  font-weight: bold;
+}
+
+.item {
+  border: 1px solid gray;
+  padding: 10px;
+  margin: 10px;
+}
