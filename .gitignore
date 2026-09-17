@@ -1,2 +1,6 @@
 **/venv/
 2_DataAnalysis/data/*.csv
+/Memo/
+/3_MLDL/outputs/*.pth
+/3_MLDL/data/cifar-10-batches-py/
+/3_MLDL/data/cifar-10-python.tar.gz
