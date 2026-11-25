@@ -1,0 +1,54 @@
+import cv2
+import sys
+
+cap_foreground = cv2.VideoCapture("./movies/woman.mp4")
+cap_background = cv2.VideoCapture("./movies/sea.mp4")
+
+fps = cap_foreground.get(cv2.CAP_PROP_FPS)
+delay = max(1, round(1000 / fps)) if fps > 0 else 30
+
+print(fps)
+print(delay)
+
+while True:
+    ret1, frame1 = cap_foreground.read()  # ret1: 로딩 여부
+    # 로딩 안될시 break
+    if not ret1:
+        break
+
+    ret2, frame2 = cap_background.read()
+    # foreground보다 background 길이가 짧을 시 background 재설정 (끝났다면 다시 0부터 시작 >> 프레임 포지션 처음부터)
+    if not ret2:
+        cap_background.set(cv2.CAP_PROP_POS_FRAMES, 0)
+        ret2, frame2 = cap_background.read()
+        if not ret2:
+            break
+    # 두 영상 크기가 다르면 배경 영상을 전경 영상 크기에 맞춤
+    frame2 = cv2.resize(frame2, (frame1.shape[1], frame1.shape[0]))  # frame1의 세로, 가로 크기를 frame2에 적용
+
+    # 전경 영상을 HSV로 변환
+    hsv = cv2.cvtColor(frame1, cv2.COLOR_BGR2HSV)
+
+    # 녹색 배경 (크로마키) 마스크 따기
+    lower_green = (50, 150, 0)
+    upper_green = (70, 255, 255)
+    green_mask = cv2.inRange(hsv, lower_green, upper_green)
+
+    # 결과 프레임은 전경 프레임의 복사본에서 시작
+    result = frame1.copy()
+    # green_mask가 흰색인 부분에 배경 영상(frame2)을 복사
+    cv2.copyTo(frame2, green_mask, result)
+
+    cv2.imshow("chromakey", result)
+    cv2.imshow("mask", green_mask)
+
+    key = cv2.waitKey(delay)
+
+    if key == ord(" "):  # 스페이스바
+        cv2.waitKey(0)  # 일시정지
+    elif key == 27:  # ESC
+        break  
+
+cap_foreground.release()
+cap_background.release()
+cv2.destroyAllWindows()

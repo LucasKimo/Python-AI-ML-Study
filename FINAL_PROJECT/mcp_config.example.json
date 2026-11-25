@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "ryuzy": {
+      "command": "python",
+      "args": ["mcp_server/server.py"],
+      "cwd": "C:/Users/Administrator/ryuzy-project",
+      "env": {
+        "BACKEND_URL": "http://127.0.0.1:8000"
+      }
+    }
+  }
+}

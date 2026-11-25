@@ -1,6 +1,47 @@
 **/venv/
+**/.venv/
 2_DataAnalysis/data/*.csv
 /Memo/
 /3_MLDL/outputs/*.pth
 /3_MLDL/data/cifar-10-batches-py/
 /3_MLDL/data/cifar-10-python.tar.gz
+
+# ── 비밀 정보 (API 키) ─────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Python 실행 부산물 ─────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.db
+
+# ── 모델 가중치 (크고, 학습으로 다시 만들 수 있음) ─────────────
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.npy
+
+# ── 데이터셋 ───────────────────────────────────────────────────
+# 큰 csv만 경로로 막습니다. 작은 실습 csv는 노트북 실행에 필요해서 계속 올립니다.
+/2_DataAnalysis/online_retail_II.csv
+/2_DataAnalysis/output/cafe_with_nearest_starbucks.csv
+/3_MLDL/data/hotel_bookings.csv
+/3_MLDL/data/alien_vs_predator/
+/4_MULTIMODAL/data/
+*.zip
+
+# ── 학습 결과 / 출력 ───────────────────────────────────────────
+runs/
+/output/
+/weights/
+/4_MULTIMODAL/model/
+/4_MULTIMODAL/vit_train_results/
+
+# ── 오디오 (샘플 녹음은 100MB 초과, 목소리는 개인정보) ─────────
+*.wav
+FINAL_PROJECT/data/voices/
+5_PROJECT/example/speakers/
